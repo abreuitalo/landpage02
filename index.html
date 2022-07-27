@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="assets/css/style.css" />
+      <link rel="stylesheet" href="assets/css/menu.css" />
+      <link rel="stylesheet" href="assets/css/tabela.css" />
+      <link rel="stylesheet" href="assets/css/contato.css" />
+      <title>Page</title>
+   </head>
+
+   <body>
+      <header class="menu">
+         <h1>
+            <a href="#home">Landing Page</a>
+         </h1>
+
+         <nav>
+            <ul>
+               <li><a href="#home">Home</a></li>
+               <li><a href="#tabela">Tabela</a></li>
+               <li><a href="#contato">Contato</a></li>
+            </ul>
+         </nav>
+      </header>
+
+      <div class="menu-spacing"></div>
+
+      <section class="section home" id="home">
+         <div class="intro-content">
+            <div class="intro-text">
+               <h2>
+                  Uma Landing Page simples com intuito de praticar HTML e CSS
+               </h2>
+            </div>
+         </div>
+
+         <div class="intro-img">
+            <img src="./assets/img/intro-img.svg" alt="" />
+         </div>
+      </section>
+
+      <section class="section pink-bg tabela" id="tabela">
+         <div class="container">
+            <div class="tabela2">
+               <table>
+                  <caption>
+                     Uma breve descrição
+                  </caption>
+                  <thead>
+                     <tr>
+                        <!--linha-->
+                        <th>Title 1</th>
+                        <th>Title 2</th>
+                        <th>Title 3</th>
+                     </tr>
+                  </thead>
+
+                  <tbody>
+                     <tr>
+                        <td>Content 1</td>
+                        <td>Content 2</td>
+                        <td>Content 3</td>
+                     </tr>
+                     <tr>
+                        <td>Content 1</td>
+                        <td>Content 2</td>
+                        <td>Content 3</td>
+                     </tr>
+                     <tr>
+                        <td>Content 1</td>
+                        <td>Content 2</td>
+                        <td>Content 3</td>
+                     </tr>
+                  </tbody>
+
+                  <tfoot>
+                     <tr>
+                        <td>legenda</td>
+                        <td></td>
+                        <td></td>
+                     </tr>
+                  </tfoot>
+               </table>
+            </div>
+         </div>
+      </section>
+
+      <section class="section contato" id="contato">
+         <div class="container-form">
+            <div class="text">
+               <h3>Fale Conosco</h3>
+               <p>Entre em contato conosco!</p>
+
+               <div class="form">
+                  <label for="nome">Nome</label>
+                  <input type="text" name="" id="nome" placeholder="nome" />
+
+                  <label for="email">E-mail</label>
+                  <input
+                     type="email"
+                     name=""
+                     id="email"
+                     placeholder="email@email.com"
+                  />
+
+                  <label for="mensagem">Mensagem</label>
+                  <input
+                     type="text"
+                     id="mensagem"
+                     name=""
+                     cols="30"
+                     rows="10"
+                     placeholder="sua mensagem"
+                  />
+
+                  <button class="btn">Enviar</button>
+               </div>
+            </div>
+
+            <div class="img-form">
+               <img src="./assets/img/form-img.svg" alt="" />
+            </div>
+         </div>
+      </section>
+
+      <footer class="footer">
+         <p>
+            &copy; Credit by
+            <a
+               href="https://www.linkedin.com/in/%C3%ADtalo-abreu-7711b3198/"
+               target="_blank"
+               >abreuitalo</a
+            >
+         </p>
+      </footer>
+   </body>
+</html>

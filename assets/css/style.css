@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Montserrat:wght@100;900&family=Open+Sans:wght@400;700&family=Poppins:ital,wght@1,200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Montserrat:wght@100;900&family=Open+Sans:wght@400;700&family=Poppins:ital,wght@1,200&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+:root {
+  --branco: #FFFFFF;
+  --azul: #1A1F71;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.section {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.home {
+  background: var(--azul);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.pink-bg{
+  background: #F01C3F;
+}
+
+.menu-spacing {
+  height: 60px;
+}
+
+.intro-content {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.intro-text {
+  padding: 10px;
+  font-family: 'Poppins', cursive;
+  font-size: 1.2rem;
+  color: var(--branco);
+}
+
+.intro-img {
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.intro-img img {
+  height: 30rem;
+}
+
+.footer {
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 1rem 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #F01C3F
+}
+
+@media (max-width: 1000px) {
+
+  #home {
+    display: flex;
+  }
+
+  .contato div.img-form img,
+  .home div.intro-img img{
+   height: 1px; 
+   width: 1px;
+   padding: 0;
+
+  }
+
+  #contato {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .container-form {
+    margin: 0 50%;
+    padding-top: 2em;
+  }
+  .container-form h3 {
+    font-size: 50px;
+    text-align: center;
+    color: #6C63FF;
+  }
+  .container-form label {
+    text-align: center;
+    color: #6C63FF;
+  }
+  .container-form input {
+    width: 300px;
+  }
+
+  .menu h1{
+    display: flex;
+    justify-content: center;
+  }
+  .menu{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  #tabela .container {
+    max-width: 75%;
+  }
+}

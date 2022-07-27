@@ -1,0 +1,43 @@
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0.7rem ;
+  background: var(--branco);
+  position: fixed;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+nav {
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.menu ul li a{
+  color: #000;
+  text-decoration: none;
+  margin: 0 3rem;
+  transition: all .3ms ease-in-out;
+}
+
+.menu ul li a:hover {
+  font-weight: 600;
+}
+
+
+h1 a {
+  font-family: 'Poppins';
+  font-size: 1.6rem;
+  color: #000;
+  text-decoration: none;
+}
+
+
+
+
