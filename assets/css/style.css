@@ -73,6 +73,10 @@ html {
 
 @media (max-width: 1000px) {
 
+  body{
+    width: 100%;
+  }
+
   #home {
     display: flex;
   }
