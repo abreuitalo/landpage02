@@ -76,7 +76,6 @@ html {
   
 
   #home {
-    width: 100%;
     display: flex;
   }
 
@@ -95,7 +94,6 @@ html {
   }
 
   .container-form {
-    width: 100%;
     margin: 0 50%;
     padding-top: 2em;
   }
@@ -109,7 +107,7 @@ html {
     color: #6C63FF;
   }
   .container-form input {
-    width: 300px;
+    /* width: 300px; */
   }
 
   .menu h1{
@@ -119,7 +117,6 @@ html {
   .menu{
     display: flex;
     flex-direction: column;
-    width: 100%;
   }
 
   .menu nav {
@@ -129,6 +126,5 @@ html {
 
   #tabela .container {
     max-width: 75%;
-    width: 100%;
   }
 }
