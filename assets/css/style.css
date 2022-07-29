@@ -87,6 +87,10 @@ html {
 
   }
 
+  #p-contato{
+    font-size: 25%;
+  }
+
   #contato {
     display: flex;
     width: 100%;
