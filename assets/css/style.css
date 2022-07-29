@@ -100,11 +100,11 @@ html {
   .container-form h3 {
     font-size: 50px;
     text-align: center;
-    color: #6C63FF;
+    color: #fff;
   }
   .container-form label {
     text-align: center;
-    color: #6C63FF;
+    color: #fff;
   }
   .container-form input {
     /* width: 300px; */
@@ -127,4 +127,5 @@ html {
   #tabela .container {
     max-width: 75%;
   }
+
 }
