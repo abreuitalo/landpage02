@@ -1,5 +1,5 @@
 .contato {
-  background: #0A1128;
+  background: #4872CA;
 }
 
 .container-form {
@@ -17,7 +17,10 @@
 .text p {
   margin-top: 10px;
   font-size: 1.3rem;
-  text-align: center;
+  text-align: left;
+  font-style: italic;
+  font-weight: 600;
+  color: #3F3D56;
 }
 
 .text h3 {
@@ -71,7 +74,7 @@
   width: 50%;
   height: 3em;
   margin-left: 25%;
-  background: #6C63FF;
+  background: #3F3D56;
   border-radius: 40px;
   color: var(--branco);
   font-weight: 600;

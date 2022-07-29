@@ -9,7 +9,7 @@ html {
 
 :root {
   --branco: #FFFFFF;
-  --azul: #1A1F71;
+  --azul: #FF4B30;
 }
 
 * {
@@ -30,7 +30,7 @@ html {
 }
 
 .pink-bg{
-  background: #F01C3F;
+  background: #000000;
 }
 
 .menu-spacing {
